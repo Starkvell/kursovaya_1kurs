@@ -63,8 +63,6 @@ typedef struct _PLAYER
     float stepY;
     SDL_Surface* image;
     int color;
-    int imgW;
-    int imgH;
     float centerX;
     float centerY;
 } PLAYER;
@@ -75,8 +73,6 @@ typedef struct _NPC
     float posY;
     int indexX;
     int indexY;
-    int imgW;
-    int imgH;
     SDL_Surface* image;
     int color;
     float distX;
